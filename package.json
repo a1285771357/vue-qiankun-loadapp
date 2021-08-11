@@ -1,0 +1,32 @@
+{
+  "name": "vue-qiankun-loadapp",
+  "version": "1.0.0",
+  "description": "在vue项目中添加手动加载子应用组件，解决子应用同时存在抢占路由",
+  "keywords": [
+    "vue",
+    "router",
+    "qiankun"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./build/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhanglei",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "qiankun": "^2.4.6"
+  },
+  "files": [
+    "dist/*.js"
+  ]
+}
